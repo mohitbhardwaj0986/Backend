@@ -1,0 +1,105 @@
+
+*{
+  padding: 0;
+  font-family: sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  height: 500px;
+  width: 400px;
+background-color: rgb(153, 153, 154);
+margin-top: 40px;
+border: none;
+border-radius: 4px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input{
+  padding: 10px ;
+  width: 300px;
+  border-radius: 7px;
+  border: none;
+  margin-top: 10px;
+
+}
+#ragister-btn{
+  padding: 10px 90px;
+  background-color: red;
+  border: none;
+  border-radius: 15px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.Forgot-password{
+text-decoration: none;
+color: rgb(12, 55, 111);
+font-weight: 600;
+cursor: pointer;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.form{
+  display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.profile-containerr{
+background-color: rgb(38, 38, 38);
+width: 100vw;
+height: 100vh;
+color: #fff;
+display: flex;
+
+align-items: center;
+flex-direction: column;
+}
+
+.profile-img-container{
+  margin-top: 150px;
+}
+.profile-img-container :nth-child(1){
+height: 200px;
+width: 250px;
+}
+.profile-dp-container :nth-child(1){
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+}
+.profile-dp-container .dp-btn{
+  padding: 7px 8px;
+  border: none;
+  border-radius: 30px;
+  background-color: #dcdcdc;
+  
+}
+ 
+.ri-pencil-fill{
+  padding: 5px;
+ color: black;
+cursor: pointer;
+ background-color: white;
+ border-radius: 50%;
+ margin: -40px 10px 10px 31px;
+}
+#uploadicon{
+  cursor: pointer;
+}

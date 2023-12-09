@@ -1,0 +1,15 @@
+<% include ./partials/header.ejs %>
+<div class="main">
+    <div class="container">
+      <h2>creater new account</h2>
+      <form class="form" action="/register" method="post">
+    <input type="text" name="username" placeholder="username">
+    <input type="email" name="email" placeholder="email">
+    <input class="number" type="number" name="contact" placeholder="contact">
+    <input type="password" name="password" placeholder="password">
+    <button id="ragister-btn">Register</button>
+    <a href="/">Already I have account</a>
+</form>
+    </div>
+    </div>
+<% include ./partials/footer.ejs %>
